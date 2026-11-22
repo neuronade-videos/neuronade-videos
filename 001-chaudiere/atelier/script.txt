@@ -1,0 +1,27 @@
+Ta chaudière pleure ? Pas de panique : ce n'est pas une dépression... c'est de la condensation. Regarde ce qui se passe à l'intérieur quand tu montes le thermostat.
+
+Une chaudière murale à condensation, c'est un brûleur, un échangeur, un ventilateur, une vanne gaz, un circulateur, et une carte électronique qui pilote tout.
+
+Tout commence au thermostat. Il mesure dix-sept degrés, tu en demandes vingt : il envoie une demande de chauffe à la carte électronique.
+
+La carte démarre d'abord le ventilateur. Il aspire l'air extérieur par la ventouse, un conduit à double tube : l'air frais entre par l'extérieur, les fumées sortiront par le centre.
+
+Puis la vanne gaz s'ouvre. Le gaz se mélange à l'air avant le brûleur : environ dix volumes d'air pour un volume de gaz. C'est le prémélange.
+
+L'électrode d'allumage envoie des étincelles, et la flamme s'allume. Une sonde d'ionisation surveille la flamme en permanence. Si elle disparaît, le gaz est coupé aussitôt.
+
+La flamme chauffe l'échangeur, un serpentin en inox où circule l'eau du chauffage. Elle y entre tiède, et en ressort à soixante, soixante-dix degrés. La carte ajuste la puissance en continu : c'est la modulation.
+
+Le circulateur envoie cette eau chaude vers les radiateurs. Elle y cède sa chaleur, puis revient refroidie. En chauffant, l'eau se dilate : le vase d'expansion absorbe ce volume. Au-delà de trois bars, la soupape de sécurité s'ouvre.
+
+Maintenant, le secret de la condensation. Les fumées contiennent de la vapeur d'eau. En bas de l'échangeur, au contact de l'eau froide du retour, elles passent sous cinquante-cinq degrés. La vapeur se condense et rend sa chaleur à l'eau : jusqu'à environ dix pour cent d'énergie en plus.
+
+Voilà pourquoi ta chaudière « pleure » ! Ces condensats, légèrement acides, passent par un siphon puis partent à l'égout. Les fumées refroidies sortent par le centre de la ventouse.
+
+Et si tu ouvres un robinet d'eau chaude ? Un débitmètre détecte le passage d'eau. La vanne trois voies bascule : l'eau du chauffage traverse alors l'échangeur à plaques, et réchauffe instantanément l'eau froide du réseau. L'eau chaude est prioritaire sur le chauffage.
+
+À vingt degrés, le thermostat coupe la demande. La vanne gaz se ferme, la flamme s'éteint. Le circulateur et le ventilateur tournent encore un instant, pour évacuer la chaleur et les derniers gaz.
+
+Et au moindre défaut, flamme absente, surchauffe ou manque de pression, la chaudière se met en sécurité et affiche un code d'erreur.
+
+Air, gaz, flamme, eau chaude, radiateurs : voilà ce qui se cache derrière ton thermostat. Et chez toi, ta chaudière affiche combien de bars ? Dis-le en commentaire !
