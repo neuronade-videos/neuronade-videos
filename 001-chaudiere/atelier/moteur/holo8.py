@@ -1,5 +1,5 @@
 """Glitch anomalies: the in-universe 'neuronade.ia' terminal briefly reveals self-aware messages (8 frames each, 6 readable)."""
-import sys, os, json, math, random, subprocess
+import sys, os, json, math, random, subprocess, re
 import numpy as np
 from PIL import Image, ImageDraw
 sys.path.insert(0, '/home/claude/v7'); sys.path.insert(0, '/home/claude/brand')
@@ -13,12 +13,15 @@ GL = (255, 86, 72)          # 'corrupted' red
 # The messages are secret (lore): read from lore.json, which stays out of the public repo.
 LORE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lore.json')))
 EV = [(e['kind'], float(eval(e['at'], {'V': V})), e['text']) for e in LORE['events']]
-NT, NM = 8, 6               # tear frames / message frames per event
-EVF = [(k, int(round(t * FPS)), s) for k, t, s in EV]
+def msg_frames(text):
+    # readable time adapted to the message: 1-3 words = 0.5 s, 4+ words = 0.8 s (always under one second)
+    words = [w for w in re.split(r"[\s_]+", text) if re.search(r"\w", w)]
+    return 15 if len(words) <= 3 else 24
+EVF = [(k, int(round(t * FPS)), s, msg_frames(s)) for k, t, s in EV]
 OUTRO_EV = float(LORE['outro']['at'])   # seconds into the outro
 def active(i):
-    for k, f0, s in EVF:
-        if f0 <= i < f0 + NT: return k, s, (f0 + 1 <= i < f0 + 1 + NM), i - f0
+    for k, f0, s, nm in EVF:
+        if f0 <= i < f0 + nm + 2: return k, s, (f0 + 1 <= i < f0 + 1 + nm), i - f0
     return None
 
 KEEP = {'cap': (1320, 1460), 'thermo': (760, 1100), 'chap': (150, 240), 'row': (1225, 1305), 'outro': (1468, 1562), 'tag': None}
@@ -94,14 +97,14 @@ class R8(H7.R7):
 
 def outro8(t):
     import brand as B
-    img = B.outro_frame(t); j = int(round((t - OUTRO_EV) * FPS))
-    if 0 <= j < NT:
-        if 1 <= j <= NM:
+    img = B.outro_frame(t); j = int(round((t - OUTRO_EV) * FPS)); nm = msg_frames(LORE['outro']['text'])
+    if 0 <= j < nm + 2:
+        if 1 <= j <= nm:
             d = ImageDraw.Draw(img, 'RGBA'); f = V.font('monob', 40); s = LORE['outro']['text']
             tw = d.textlength(s, font=f); x0 = W / 2 - tw / 2 - 24
             d.rectangle([x0, 1480, W - x0, 1550], fill=(16, 2, 4, 235), outline=V.rgba(GL, 200), width=2)
             V.text(img, d, (W / 2, 1515), s, f, GL, 1.0, 'mm')
-        img = tear(img, 991 + j, 1.0 if 1 <= j <= NM else 0.6, KEEP['outro'] if 1 <= j <= NM else None)
+        img = tear(img, 991 + j, 1.0 if 1 <= j <= nm else 0.6, KEEP['outro'] if 1 <= j <= nm else None)
     return img
 
 def encode(out, frames):
@@ -114,7 +117,7 @@ def encode(out, frames):
     if rc == 0: os.replace(tmp, out)
     return rc
 
-SEGS = sorted({f // 150 for k, f0, s in EVF for f in (f0, f0 + NT - 1)})
+SEGS = sorted({f // 150 for k, f0, s, nm in EVF for f in (f0, f0 + nm + 1)})
 def render_seg(k):
     r = R8(); f0, f1 = k * 150, min(V.NF, (k + 1) * 150)
     return k, encode('/home/claude/v7/seg/seg_%03d.mp4' % k, (r.frame(i) for i in range(f0, f1)))
@@ -122,12 +125,13 @@ def render_seg(k):
 if __name__ == '__main__':
     if sys.argv[1] == 'preview':
         r = R8(); os.makedirs('/home/claude/v7/prev', exist_ok=True)
-        for k, f0, s in EVF:
+        for k, f0, s, nm in EVF:
             r.frame(f0 + 3).save('/home/claude/v7/prev/g_%d.png' % f0); print(k, f0 / FPS, flush=True)
         outro8(OUTRO_EV + 3 / FPS).save('/home/claude/v7/prev/g_outro.png')
     else:
-        times = [INTRO + f0 / FPS for k, f0, s in EVF] + [INTRO + V.NF / FPS + OUTRO_EV]
-        json.dump(dict(times=times, dur=NT / FPS), open('/home/claude/v7/audio/glitch_times.json', 'w'))
+        times = [INTRO + f0 / FPS for k, f0, s, nm in EVF] + [INTRO + V.NF / FPS + OUTRO_EV]
+        durs = [(nm + 2) / FPS for k, f0, s, nm in EVF] + [(msg_frames(LORE['outro']['text']) + 2) / FPS]
+        json.dump(dict(times=times, durs=durs), open('/home/claude/v7/audio/glitch_times.json', 'w'))
         print('segments', SEGS, 'times', [round(x, 2) for x in times], flush=True)
         from multiprocessing import Pool
         with Pool(2) as p:
