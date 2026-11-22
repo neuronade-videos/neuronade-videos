@@ -1,0 +1,21 @@
+Ton frigo ne fabrique pas de froid. C'est un voleur : il vole la chaleur de tes yaourts… et il la jette dans ta cuisine. La preuve ? Pose ta main à l'arrière ou sur les côtés : c'est tiède. Regarde comment il fait.
+
+Un frigo, c'est un circuit fermé avec quatre éléments : un compresseur, un condenseur, un détendeur et un évaporateur. Dedans tourne un fluide frigorigène, le plus souvent de l'isobutane.
+
+Son secret tient en une idée. Quand un liquide s'évapore, il absorbe de la chaleur : c'est pour ça que tu as froid en sortant de la douche. Et plus la pression est basse, plus il s'évapore à basse température.
+
+Tout commence dans l'évaporateur, au fond du frigo. Le fluide y arrive liquide, à basse pression. Il bout vers moins vingt degrés, et prend la chaleur des aliments en devenant gaz.
+
+Le compresseur, ce moteur en bas à l'arrière, aspire ce gaz et le comprime. Comprimé, le gaz chauffe à plus de cinquante degrés. C'est ce bourdonnement que tu entends.
+
+Le gaz brûlant passe dans le condenseur : la grille à l'arrière, ou les côtés. Plus chaud que ta cuisine, il lui cède la chaleur volée, et redevient liquide.
+
+Reste à le refroidir. Le détendeur, un tube très fin, fait chuter la pression d'un coup. Le liquide devient glacé, repart dans l'évaporateur, et la boucle recommence.
+
+Le thermostat surveille. Quand l'intérieur atteint environ quatre degrés, il arrête le compresseur. Quand ça remonte, il le relance. Voilà pourquoi ton frigo se tait, puis ronronne à nouveau.
+
+Et lui aussi, il pleure ! Décidément… L'humidité givre sur la paroi du fond. Quand le compresseur s'arrête, ce givre fond, coule par un petit trou, et finit dans un bac près du compresseur, où la chaleur l'évapore.
+
+Bonus : ouvrir ton frigo en été pour rafraîchir la cuisine ? Raté. Il rejette la chaleur qu'il vole, plus celle de son moteur. Ta cuisine se réchauffe.
+
+Voler la chaleur dedans pour la jeter dehors : c'est tout le principe du froid. Et chez toi, ton frigo est réglé sur combien ? Dis-le en commentaire !

@@ -1,0 +1,182 @@
+[
+ {
+  "p": 0,
+  "s": 0,
+  "text": "Ton frigo ne fabrique pas de froid."
+ },
+ {
+  "p": 0,
+  "s": 1,
+  "text": "C'est un voleur : il vole la chaleur de tes yaourts… et il la jette dans ta cuisine."
+ },
+ {
+  "p": 0,
+  "s": 2,
+  "text": "La preuve ?"
+ },
+ {
+  "p": 0,
+  "s": 3,
+  "text": "Pose ta main à l'arrière ou sur les côtés : c'est tiède."
+ },
+ {
+  "p": 0,
+  "s": 4,
+  "text": "Regarde comment il fait."
+ },
+ {
+  "p": 1,
+  "s": 0,
+  "text": "Un frigo, c'est un circuit fermé avec quatre éléments : un compresseur, un condenseur, un détendeur et un évaporateur."
+ },
+ {
+  "p": 1,
+  "s": 1,
+  "text": "Dedans tourne un fluide frigorigène, le plus souvent de l'isobutane."
+ },
+ {
+  "p": 2,
+  "s": 0,
+  "text": "Son secret tient en une idée."
+ },
+ {
+  "p": 2,
+  "s": 1,
+  "text": "Quand un liquide s'évapore, il absorbe de la chaleur : c'est pour ça que tu as froid en sortant de la douche."
+ },
+ {
+  "p": 2,
+  "s": 2,
+  "text": "Et plus la pression est basse, plus il s'évapore à basse température."
+ },
+ {
+  "p": 3,
+  "s": 0,
+  "text": "Tout commence dans l'évaporateur, au fond du frigo."
+ },
+ {
+  "p": 3,
+  "s": 1,
+  "text": "Le fluide y arrive liquide, à basse pression."
+ },
+ {
+  "p": 3,
+  "s": 2,
+  "text": "Il bout vers moins vingt degrés, et prend la chaleur des aliments en devenant gaz."
+ },
+ {
+  "p": 4,
+  "s": 0,
+  "text": "Le compresseur, ce moteur en bas à l'arrière, aspire ce gaz et le comprime."
+ },
+ {
+  "p": 4,
+  "s": 1,
+  "text": "Comprimé, le gaz chauffe à plus de cinquante degrés."
+ },
+ {
+  "p": 4,
+  "s": 2,
+  "text": "C'est ce bourdonnement que tu entends."
+ },
+ {
+  "p": 5,
+  "s": 0,
+  "text": "Le gaz brûlant passe dans le condenseur : la grille à l'arrière, ou les côtés."
+ },
+ {
+  "p": 5,
+  "s": 1,
+  "text": "Plus chaud que ta cuisine, il lui cède la chaleur volée, et redevient liquide."
+ },
+ {
+  "p": 6,
+  "s": 0,
+  "text": "Reste à le refroidir."
+ },
+ {
+  "p": 6,
+  "s": 1,
+  "text": "Le détendeur, un tube très fin, fait chuter la pression d'un coup."
+ },
+ {
+  "p": 6,
+  "s": 2,
+  "text": "Le liquide devient glacé, repart dans l'évaporateur, et la boucle recommence."
+ },
+ {
+  "p": 7,
+  "s": 0,
+  "text": "Le thermostat surveille."
+ },
+ {
+  "p": 7,
+  "s": 1,
+  "text": "Quand l'intérieur atteint environ quatre degrés, il arrête le compresseur."
+ },
+ {
+  "p": 7,
+  "s": 2,
+  "text": "Quand ça remonte, il le relance."
+ },
+ {
+  "p": 7,
+  "s": 3,
+  "text": "Voilà pourquoi ton frigo se tait, puis ronronne à nouveau."
+ },
+ {
+  "p": 8,
+  "s": 0,
+  "text": "Et lui aussi, il pleure !"
+ },
+ {
+  "p": 8,
+  "s": 1,
+  "text": "Décidément…"
+ },
+ {
+  "p": 8,
+  "s": 2,
+  "text": "L'humidité givre sur la paroi du fond."
+ },
+ {
+  "p": 8,
+  "s": 3,
+  "text": "Quand le compresseur s'arrête, ce givre fond, coule par un petit trou, et finit dans un bac près du compresseur, où la chaleur l'évapore."
+ },
+ {
+  "p": 9,
+  "s": 0,
+  "text": "Bonus : ouvrir ton frigo en été pour rafraîchir la cuisine ?"
+ },
+ {
+  "p": 9,
+  "s": 1,
+  "text": "Raté."
+ },
+ {
+  "p": 9,
+  "s": 2,
+  "text": "Il rejette la chaleur qu'il vole, plus celle de son moteur."
+ },
+ {
+  "p": 9,
+  "s": 3,
+  "text": "Ta cuisine se réchauffe."
+ },
+ {
+  "p": 10,
+  "s": 0,
+  "text": "Voler la chaleur dedans pour la jeter dehors : c'est tout le principe du froid."
+ },
+ {
+  "p": 10,
+  "s": 1,
+  "text": "Et chez toi, ton frigo est réglé sur combien ?"
+ },
+ {
+  "p": 10,
+  "s": 2,
+  "text": "Dis-le en commentaire !"
+ }
+]

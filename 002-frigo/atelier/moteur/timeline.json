@@ -1,0 +1,502 @@
+{
+ "sents": [
+  {
+   "p": 0,
+   "s": 0,
+   "text": "Ton frigo ne fabrique pas de froid.",
+   "t0": 0.07,
+   "t1": 1.77,
+   "breaks": []
+  },
+  {
+   "p": 0,
+   "s": 1,
+   "text": "C'est un voleur : il vole la chaleur de tes yaourts… et il la jette dans ta cuisine.",
+   "t0": 2.27,
+   "t1": 7.36,
+   "breaks": [
+    [
+     0,
+     3.16,
+     3.57
+    ],
+    [
+     1,
+     5.4,
+     5.8
+    ]
+   ]
+  },
+  {
+   "p": 0,
+   "s": 2,
+   "text": "La preuve ?",
+   "t0": 7.9,
+   "t1": 8.48,
+   "breaks": []
+  },
+  {
+   "p": 0,
+   "s": 3,
+   "text": "Pose ta main à l'arrière ou sur les côtés : c'est tiède.",
+   "t0": 9.03,
+   "t1": 12.26,
+   "breaks": [
+    [
+     0,
+     11.1,
+     11.51
+    ]
+   ]
+  },
+  {
+   "p": 0,
+   "s": 4,
+   "text": "Regarde comment il fait.",
+   "t0": 12.69,
+   "t1": 13.8,
+   "breaks": []
+  },
+  {
+   "p": 1,
+   "s": 0,
+   "text": "Un frigo, c'est un circuit fermé avec quatre éléments : un compresseur, un condenseur, un détendeur et un évaporateur.",
+   "t0": 15.05,
+   "t1": 23.38,
+   "breaks": [
+    [
+     0,
+     15.66,
+     15.86
+    ],
+    [
+     1,
+     18.23,
+     18.74
+    ],
+    [
+     2,
+     19.66,
+     19.91
+    ],
+    [
+     3,
+     20.86,
+     21.16
+    ]
+   ]
+  },
+  {
+   "p": 1,
+   "s": 1,
+   "text": "Dedans tourne un fluide frigorigène, le plus souvent de l'isobutane.",
+   "t0": 24.1,
+   "t1": 28.33,
+   "breaks": [
+    [
+     0,
+     26.35,
+     26.64
+    ]
+   ]
+  },
+  {
+   "p": 2,
+   "s": 0,
+   "text": "Son secret tient en une idée.",
+   "t0": 29.58,
+   "t1": 31.36,
+   "breaks": []
+  },
+  {
+   "p": 2,
+   "s": 1,
+   "text": "Quand un liquide s'évapore, il absorbe de la chaleur : c'est pour ça que tu as froid en sortant de la douche.",
+   "t0": 32.05,
+   "t1": 38.01,
+   "breaks": [
+    [
+     0,
+     33.41,
+     33.68
+    ],
+    [
+     1,
+     35.11,
+     35.56
+    ]
+   ]
+  },
+  {
+   "p": 2,
+   "s": 2,
+   "text": "Et plus la pression est basse, plus il s'évapore à basse température.",
+   "t0": 38.59,
+   "t1": 42.67,
+   "breaks": [
+    [
+     0,
+     40.11,
+     40.44
+    ]
+   ]
+  },
+  {
+   "p": 3,
+   "s": 0,
+   "text": "Tout commence dans l'évaporateur, au fond du frigo.",
+   "t0": 43.92,
+   "t1": 46.71,
+   "breaks": [
+    [
+     0,
+     45.61,
+     45.77
+    ]
+   ]
+  },
+  {
+   "p": 3,
+   "s": 1,
+   "text": "Le fluide y arrive liquide, à basse pression.",
+   "t0": 47.33,
+   "t1": 50.07,
+   "breaks": [
+    [
+     0,
+     49.02,
+     49.22
+    ]
+   ]
+  },
+  {
+   "p": 3,
+   "s": 2,
+   "text": "Il bout vers moins vingt degrés, et prend la chaleur des aliments en devenant gaz.",
+   "t0": 50.68,
+   "t1": 55.15,
+   "breaks": [
+    [
+     0,
+     52.25,
+     52.58
+    ]
+   ]
+  },
+  {
+   "p": 4,
+   "s": 0,
+   "text": "Le compresseur, ce moteur en bas à l'arrière, aspire ce gaz et le comprime.",
+   "t0": 56.4,
+   "t1": 61.3,
+   "breaks": [
+    [
+     0,
+     57.3,
+     57.5
+    ],
+    [
+     1,
+     59.06,
+     59.38
+    ]
+   ]
+  },
+  {
+   "p": 4,
+   "s": 1,
+   "text": "Comprimé, le gaz chauffe à plus de cinquante degrés.",
+   "t0": 61.92,
+   "t1": 64.98,
+   "breaks": [
+    [
+     0,
+     62.51,
+     62.79
+    ]
+   ]
+  },
+  {
+   "p": 4,
+   "s": 2,
+   "text": "C'est ce bourdonnement que tu entends.",
+   "t0": 65.45,
+   "t1": 67.14,
+   "breaks": []
+  },
+  {
+   "p": 5,
+   "s": 0,
+   "text": "Le gaz brûlant passe dans le condenseur : la grille à l'arrière, ou les côtés.",
+   "t0": 68.39,
+   "t1": 72.87,
+   "breaks": [
+    [
+     0,
+     70.5,
+     70.96
+    ],
+    [
+     1,
+     72.06,
+     72.25
+    ]
+   ]
+  },
+  {
+   "p": 5,
+   "s": 1,
+   "text": "Plus chaud que ta cuisine, il lui cède la chaleur volée, et redevient liquide.",
+   "t0": 73.56,
+   "t1": 78.04,
+   "breaks": [
+    [
+     0,
+     74.85,
+     75.1
+    ],
+    [
+     1,
+     76.61,
+     76.88
+    ]
+   ]
+  },
+  {
+   "p": 6,
+   "s": 0,
+   "text": "Reste à le refroidir.",
+   "t0": 79.29,
+   "t1": 80.56,
+   "breaks": []
+  },
+  {
+   "p": 6,
+   "s": 1,
+   "text": "Le détendeur, un tube très fin, fait chuter la pression d'un coup.",
+   "t0": 81.29,
+   "t1": 85.28,
+   "breaks": [
+    [
+     0,
+     82.16,
+     82.37
+    ],
+    [
+     1,
+     83.37,
+     83.72
+    ]
+   ]
+  },
+  {
+   "p": 6,
+   "s": 2,
+   "text": "Le liquide devient glacé, repart dans l'évaporateur, et la boucle recommence.",
+   "t0": 85.88,
+   "t1": 90.84,
+   "breaks": [
+    [
+     0,
+     87.39,
+     87.66
+    ],
+    [
+     1,
+     89.21,
+     89.52
+    ]
+   ]
+  },
+  {
+   "p": 7,
+   "s": 0,
+   "text": "Le thermostat surveille.",
+   "t0": 92.09,
+   "t1": 93.39,
+   "breaks": []
+  },
+  {
+   "p": 7,
+   "s": 1,
+   "text": "Quand l'intérieur atteint environ quatre degrés, il arrête le compresseur.",
+   "t0": 93.9,
+   "t1": 97.8,
+   "breaks": [
+    [
+     0,
+     96.2,
+     96.5
+    ]
+   ]
+  },
+  {
+   "p": 7,
+   "s": 2,
+   "text": "Quand ça remonte, il le relance.",
+   "t0": 98.32,
+   "t1": 100.28,
+   "breaks": [
+    [
+     0,
+     99.17,
+     99.39
+    ]
+   ]
+  },
+  {
+   "p": 7,
+   "s": 3,
+   "text": "Voilà pourquoi ton frigo se tait, puis ronronne à nouveau.",
+   "t0": 100.82,
+   "t1": 103.9,
+   "breaks": [
+    [
+     0,
+     102.54,
+     102.77
+    ]
+   ]
+  },
+  {
+   "p": 8,
+   "s": 0,
+   "text": "Et lui aussi, il pleure !",
+   "t0": 105.15,
+   "t1": 106.93,
+   "breaks": [
+    [
+     0,
+     105.96,
+     106.12
+    ]
+   ]
+  },
+  {
+   "p": 8,
+   "s": 1,
+   "text": "Décidément…",
+   "t0": 107.3,
+   "t1": 108.14,
+   "breaks": []
+  },
+  {
+   "p": 8,
+   "s": 2,
+   "text": "L'humidité givre sur la paroi du fond.",
+   "t0": 109.09,
+   "t1": 111.38,
+   "breaks": []
+  },
+  {
+   "p": 8,
+   "s": 3,
+   "text": "Quand le compresseur s'arrête, ce givre fond, coule par un petit trou, et finit dans un bac près du compresseur, où la chaleur l'évapore.",
+   "t0": 112.01,
+   "t1": 120.22,
+   "breaks": [
+    [
+     0,
+     113.37,
+     113.56
+    ],
+    [
+     1,
+     114.57,
+     114.91
+    ],
+    [
+     2,
+     116.12,
+     116.44
+    ],
+    [
+     3,
+     118.61,
+     118.9
+    ]
+   ]
+  },
+  {
+   "p": 9,
+   "s": 0,
+   "text": "Bonus : ouvrir ton frigo en été pour rafraîchir la cuisine ?",
+   "t0": 121.47,
+   "t1": 125.35,
+   "breaks": [
+    [
+     0,
+     122.09,
+     122.71
+    ]
+   ]
+  },
+  {
+   "p": 9,
+   "s": 1,
+   "text": "Raté.",
+   "t0": 125.86,
+   "t1": 126.42,
+   "breaks": []
+  },
+  {
+   "p": 9,
+   "s": 2,
+   "text": "Il rejette la chaleur qu'il vole, plus celle de son moteur.",
+   "t0": 126.99,
+   "t1": 130.14,
+   "breaks": [
+    [
+     0,
+     128.63,
+     128.8
+    ]
+   ]
+  },
+  {
+   "p": 9,
+   "s": 3,
+   "text": "Ta cuisine se réchauffe.",
+   "t0": 130.71,
+   "t1": 132.02,
+   "breaks": []
+  },
+  {
+   "p": 10,
+   "s": 0,
+   "text": "Voler la chaleur dedans pour la jeter dehors : c'est tout le principe du froid.",
+   "t0": 133.27,
+   "t1": 137.42,
+   "breaks": [
+    [
+     0,
+     135.52,
+     135.87
+    ]
+   ]
+  },
+  {
+   "p": 10,
+   "s": 1,
+   "text": "Et chez toi, ton frigo est réglé sur combien ?",
+   "t0": 138.02,
+   "t1": 140.35,
+   "breaks": [
+    [
+     0,
+     138.61,
+     138.85
+    ]
+   ]
+  },
+  {
+   "p": 10,
+   "s": 2,
+   "text": "Dis-le en commentaire !",
+   "t0": 140.78,
+   "t1": 141.95,
+   "breaks": []
+  }
+ ],
+ "total": 143.984
+}
