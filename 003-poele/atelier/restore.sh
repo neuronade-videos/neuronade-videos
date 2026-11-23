@@ -1,5 +1,5 @@
 #!/bin/bash
-# Remet l'atelier du Dossier #003 (frigo) aux emplacements attendus par les scripts (/home/claude/d003, b3d).
+# Remet l'atelier du Dossier #003 (poêle à granulés) aux emplacements attendus par les scripts (/home/claude/d003, b3d).
 set -e
 H=$(cd "$(dirname "$0")" && pwd); ROOT=$(cd "$H/../.." && pwd)
 mkdir -p /home/claude/d003/audio /home/claude/d003/seg /home/claude/d003/prev /home/claude/d003/b3d /home/claude/d003/brand_out /home/claude/b3d
