@@ -1,0 +1,19 @@
+Ton poêle s'allume tout seul, sans allumette. Son secret ? Un sèche-cheveux caché dans le ventre. Enfin… presque. Regarde comment il fait.
+
+Un poêle à granulés, c'est un réservoir, une vis, un creuset, et deux ventilateurs. Les granulés, c'est de la sciure de bois compressée. Un kilo contient environ cinq kilowattheures.
+
+Tout part du réservoir. Une vis sans fin, entraînée par un petit moteur, pousse les granulés dose par dose. Ils tombent dans une goulotte, puis dans le creuset. Pourquoi tomber ? Pour qu'il n'y ait jamais de chemin entre le feu et le réservoir. Le feu ne peut pas remonter.
+
+Pour allumer, une bougie électrique chauffe jusqu'à rougir. L'air aspiré passe sur elle, et arrive brûlant sur les granulés. Voilà le sèche-cheveux. Au bout de quelques minutes, la flamme prend, et la bougie s'arrête.
+
+Cet air, c'est l'extracteur de fumées qui le tire. Il met le foyer en légère dépression : l'air frais entre par le bas, les fumées sortent par le conduit. Un pressostat vérifie ce tirage. S'il manque, la vis s'arrête. Pas de fumée dans ton salon.
+
+Les fumées traversent ensuite un échangeur. Un second ventilateur aspire l'air de la pièce, le fait passer autour, et te le souffle chaud. Les fumées ne touchent jamais l'air que tu respires.
+
+Une sonde mesure la pièce. Plus on approche de la consigne, plus la vis ralentit. Moins de granulés, plus petite flamme. En moyenne, un kilo par heure.
+
+Pour s'éteindre, la vis s'arrête d'abord. Les ventilateurs tournent encore un moment, pour brûler les derniers granulés et refroidir le foyer.
+
+Bonus : pourquoi il a besoin de courant ? Vis, bougie, ventilateurs : tout est électrique. Une coupure, et il s'arrête. Le bois chauffe, mais c'est l'électricité qui pilote.
+
+Du bois compressé, une vis qui dose, de l'air qui souffle : c'est tout le secret du poêle à granulés. Et chez toi, tu te chauffes comment ? Dis-le en commentaire !

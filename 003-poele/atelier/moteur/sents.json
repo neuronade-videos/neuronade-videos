@@ -1,0 +1,197 @@
+[
+ {
+  "p": 0,
+  "s": 0,
+  "text": "Ton poêle s'allume tout seul, sans allumette."
+ },
+ {
+  "p": 0,
+  "s": 1,
+  "text": "Son secret ?"
+ },
+ {
+  "p": 0,
+  "s": 2,
+  "text": "Un sèche-cheveux caché dans le ventre."
+ },
+ {
+  "p": 0,
+  "s": 3,
+  "text": "Enfin… presque."
+ },
+ {
+  "p": 0,
+  "s": 4,
+  "text": "Regarde comment il fait."
+ },
+ {
+  "p": 1,
+  "s": 0,
+  "text": "Un poêle à granulés, c'est un réservoir, une vis, un creuset, et deux ventilateurs."
+ },
+ {
+  "p": 1,
+  "s": 1,
+  "text": "Les granulés, c'est de la sciure de bois compressée."
+ },
+ {
+  "p": 1,
+  "s": 2,
+  "text": "Un kilo contient environ cinq kilowattheures."
+ },
+ {
+  "p": 2,
+  "s": 0,
+  "text": "Tout part du réservoir."
+ },
+ {
+  "p": 2,
+  "s": 1,
+  "text": "Une vis sans fin, entraînée par un petit moteur, pousse les granulés dose par dose."
+ },
+ {
+  "p": 2,
+  "s": 2,
+  "text": "Ils tombent dans une goulotte, puis dans le creuset."
+ },
+ {
+  "p": 2,
+  "s": 3,
+  "text": "Pourquoi tomber ?"
+ },
+ {
+  "p": 2,
+  "s": 4,
+  "text": "Pour qu'il n'y ait jamais de chemin entre le feu et le réservoir."
+ },
+ {
+  "p": 2,
+  "s": 5,
+  "text": "Le feu ne peut pas remonter."
+ },
+ {
+  "p": 3,
+  "s": 0,
+  "text": "Pour allumer, une bougie électrique chauffe jusqu'à rougir."
+ },
+ {
+  "p": 3,
+  "s": 1,
+  "text": "L'air aspiré passe sur elle, et arrive brûlant sur les granulés."
+ },
+ {
+  "p": 3,
+  "s": 2,
+  "text": "Voilà le sèche-cheveux."
+ },
+ {
+  "p": 3,
+  "s": 3,
+  "text": "Au bout de quelques minutes, la flamme prend, et la bougie s'arrête."
+ },
+ {
+  "p": 4,
+  "s": 0,
+  "text": "Cet air, c'est l'extracteur de fumées qui le tire."
+ },
+ {
+  "p": 4,
+  "s": 1,
+  "text": "Il met le foyer en légère dépression : l'air frais entre par le bas, les fumées sortent par le conduit."
+ },
+ {
+  "p": 4,
+  "s": 2,
+  "text": "Un pressostat vérifie ce tirage."
+ },
+ {
+  "p": 4,
+  "s": 3,
+  "text": "S'il manque, la vis s'arrête."
+ },
+ {
+  "p": 4,
+  "s": 4,
+  "text": "Pas de fumée dans ton salon."
+ },
+ {
+  "p": 5,
+  "s": 0,
+  "text": "Les fumées traversent ensuite un échangeur."
+ },
+ {
+  "p": 5,
+  "s": 1,
+  "text": "Un second ventilateur aspire l'air de la pièce, le fait passer autour, et te le souffle chaud."
+ },
+ {
+  "p": 5,
+  "s": 2,
+  "text": "Les fumées ne touchent jamais l'air que tu respires."
+ },
+ {
+  "p": 6,
+  "s": 0,
+  "text": "Une sonde mesure la pièce."
+ },
+ {
+  "p": 6,
+  "s": 1,
+  "text": "Plus on approche de la consigne, plus la vis ralentit."
+ },
+ {
+  "p": 6,
+  "s": 2,
+  "text": "Moins de granulés, plus petite flamme."
+ },
+ {
+  "p": 6,
+  "s": 3,
+  "text": "En moyenne, un kilo par heure."
+ },
+ {
+  "p": 7,
+  "s": 0,
+  "text": "Pour s'éteindre, la vis s'arrête d'abord."
+ },
+ {
+  "p": 7,
+  "s": 1,
+  "text": "Les ventilateurs tournent encore un moment, pour brûler les derniers granulés et refroidir le foyer."
+ },
+ {
+  "p": 8,
+  "s": 0,
+  "text": "Bonus : pourquoi il a besoin de courant ?"
+ },
+ {
+  "p": 8,
+  "s": 1,
+  "text": "Vis, bougie, ventilateurs : tout est électrique."
+ },
+ {
+  "p": 8,
+  "s": 2,
+  "text": "Une coupure, et il s'arrête."
+ },
+ {
+  "p": 8,
+  "s": 3,
+  "text": "Le bois chauffe, mais c'est l'électricité qui pilote."
+ },
+ {
+  "p": 9,
+  "s": 0,
+  "text": "Du bois compressé, une vis qui dose, de l'air qui souffle : c'est tout le secret du poêle à granulés."
+ },
+ {
+  "p": 9,
+  "s": 1,
+  "text": "Et chez toi, tu te chauffes comment ?"
+ },
+ {
+  "p": 9,
+  "s": 2,
+  "text": "Dis-le en commentaire !"
+ }
+]
